@@ -1,0 +1,10 @@
+
+- hosts: server
+  roles:
+      - role: server
+
+
+- hosts: lb
+  roles:
+      - role: loadbalancer
+ 
